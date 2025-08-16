@@ -4,7 +4,7 @@ Este repositorio documenta el desarrollo de un proyecto de análisis de datos so
 
 ## Objetivo
 
-Visualizar y analizar la evolución de la pandemia a través de métricas clave como contagios diarios, tasas de mortalidad y recuperación, con filtros por país y fecha. El enfoque se centra en México y en comparativas globales.
+Visualizar y analizar la evolución de la pandemia a través de métricas clave como contagios diarios, tasas de mortalidad y recuperación, con filtros por país y fecha.
 
 ## Proceso realizado
 
@@ -26,11 +26,18 @@ Visualizar y analizar la evolución de la pandemia a través de métricas clave 
 - **Visualizaciones clave**
   - Top 10 países con más contagios y decesos
   - Top 10 países con mayor y menor tasa de mortalidad
-  - Países con mejor índice de recuperación
-  - Curva de contagios diarios en México
+  - Top 10 países con mejor índice de recuperación
+  - Curva de contagios diarios por país
   - Distribución de casos confirmados, recuperados y fallecidos
+ 
+## Herramientas utilizadas
 
-## 🔗 Vista del dashboard
+- **Power BI Desktop**: Para la limpieza, transformación y modelado de datos.
+  - **Power Query**: Para la transformación de datos (renombramiento, desopilación, reemplazo de nulos, corrección de inconsistencias).
+  - **DAX**: Para la creación de métricas como casos diarios, tasa de mortalidad e índice de recuperación.
+- **Power BI Service**: Para la publicación y visualización interactiva en línea.
+
+## Vista del dashboard
 
 Puedes explorar el reporte en Power BI a través del siguiente enlace:
 
