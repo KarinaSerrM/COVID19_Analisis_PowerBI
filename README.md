@@ -9,6 +9,7 @@ Visualizar y analizar la evolución de la pandemia a través de métricas clave 
 ## Proceso realizado
 
 - **Importación y limpieza de datos** en Power Query
+  - Importación y combinación de tablas
   - Renombramiento de columnas
   - Desopilación de fechas y casos
   - Reemplazo de valores nulos por cero
